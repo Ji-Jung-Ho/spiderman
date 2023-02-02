@@ -1,0 +1,13 @@
+#wrap {
+  width: 100%;
+}
+#wrap .container {
+  width: 1500px;
+  margin: 0 auto;
+}
+#wrap .container .video {
+  width: 100%;
+}
+#wrap .container .video video {
+  width: 100%;
+}

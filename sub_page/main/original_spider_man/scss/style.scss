@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url(../../../../css/fonts.css);
+@import url(../../../../css/reset.css);
+@import url(../../../../css/modal.css);
+@import url(../../../../css/header.css);
+@import url(../../../../css/footer.css);
+@import url(../../../../css/quick_menu.css);
+@import url(../../../../css/go_top.css);
+
+#wrap {
+    width: 100%; background: #333;
+    #main.main3 {
+        width: 100%; z-index: 2; position: relative;
+        #section1 {
+            width: 100%;
+            .container {
+                width: 1300px; margin: 0 auto;
+                ul {
+                    width: 100%; position: relative;
+                    li {
+                        display: flex;
+                        img {
+                            width: 100%;
+                            border: 1px solid #fff;
+                            margin-right: 10px;
+                            margin-bottom: 7px;
+                            height: 600px;
+                        }
+                        .movie-info {
+                            width: 100%;
+                            border: 1px solid #fff;
+                            margin-bottom: 7px;
+                            h2 {
+                                padding-top: 20px;
+                                margin-bottom: 10px;
+                                font-size: 20px;
+                                text-align: center;
+                                color: #fff;
+                            }
+                            p {
+                                font-size: 12px;
+                                line-height: 140%;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section2 {
+            width: 100%;
+            .container {
+                width: 100%;
+                max-width: 1300px;
+                margin: 0 auto;
+                .title{
+                    width: 100%;
+                    h2 {
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                .content{
+                    width: 100%;
+                    ul {
+                        width: 100%;
+                        li {
+                            border-bottom: 2px solid #fff;
+                            a {
+                                display: block;
+                                width: 100%;
+                                img {width: 100%; height: 200px;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,191 @@
+    
+#wrap {
+    width: 100%;
+    #main {
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        background: #fff;
+        padding-bottom: 80px;
+        #section1 {
+            width: 100%;
+            padding-bottom: 40px;
+            .slide-container {
+                width: 100%;
+                position: relative;
+                .slide-view {
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    z-index: 1;
+                    .slide-wrap {
+                        width: calc(100%*13);
+                        margin-left: -100%;
+                        display: flex;
+                        position: relative;
+                        left: calc(-100%*0);
+                        .sl {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                                height: 538px;
+                            }
+                        }
+                    }
+                }
+                .button {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    z-index: 3;
+                    transition: all .7s ease-in-out;
+                    opacity: 0;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    .prev-btn {
+                        width: 52px;
+                        height: 52px;
+                        position: absolute;
+                        z-index: 2;
+                        top: 50%;
+                        left: 5%;
+                        margin-top: -26px;
+                        transform: rotate(180deg);
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .next-btn {
+                        width: 52px;
+                        height: 52px;
+                        position: absolute;
+                        z-index: 2;
+                        top: 50%;
+                        right: 5%;
+                        margin-top: -26px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .page-number {
+                    position: absolute;
+                    z-index: 2;
+                    bottom: 20px;
+                    right: 10%;
+                    color: #fff;
+                    font-size: 14px;
+                    background: rgba(0, 0, 0, .7);
+                    padding: 5px 12px 7px 12px;
+                    border-radius: 13px;
+
+                    em {
+                        width: auto;
+
+                        i {
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec0205-public {
+            width: 100%;
+            padding: 40px 0;
+            .container {
+                width: 1100px;
+                margin: 0 auto;
+
+                .title {
+                    text-align: center;
+                    padding-bottom: 30px;
+
+                    h2 {
+                        font-size: 28px;
+                        color: #333;
+                        font-weight: 500;
+                    }
+                }
+
+                .content {
+                    width: 100%;
+
+                    .slide-container {
+                        width: 100%;
+                        position: relative;
+
+                        .slide-view {
+                            width: 100%;
+                            position: relative;
+                            overflow: hidden;
+
+                            .slide-wrap {
+                                width: calc(1100px*12/4);
+                                height: 323px;
+                                display: flex;
+                                position: relative;
+
+                                .slide {
+                                    width: 325px;
+                                    padding: 0 7px;
+
+                                    a {
+                                        width: 100%;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            transition: all 0.3s ease-in-out;
+
+                                            &:hover {
+                                                transform: scale(1.06);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .prev-btn {
+                            width: 42px;
+                            height: 42px;
+                            position: absolute;
+                            z-index: 2;
+                            top: 50%;
+                            left: -1%;
+                            margin-top: -26px;
+                            transform: rotate(180deg);
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .next-btn {
+                            width: 42px;
+                            height: 42px;
+                            position: absolute;
+                            z-index: 2;
+                            top: 50%;
+                            right: 1%;
+                            margin: -26px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

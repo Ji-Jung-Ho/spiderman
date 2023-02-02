@@ -1,0 +1,7 @@
+멤버
+
+회원가입  sign_up
+입력상자 사이즈 = 331 46
+
+로그인    sign_in
+고객센터  customer_center

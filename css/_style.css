@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url(./fonts.css);
+@import url(./reset.css);
+
+#wrap {width: 100%;}
+
+#wrap #modal {width: 100%; height: 42px; position: relative; background: rgba(255,0,0,.7);}
+#wrap #modal .container {width: 1050px; height: 100%; margin: 0 auto; position: relative;}
+#wrap #modal .container h1 {width: 100%; height: 100%; z-index: 1;}
+#wrap #modal .container h1 a {width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 14px; line-height: 42px;}
+#wrap #modal .container h1 strong {color: #00f;}
+#wrap #modal .container button {width: 42px; height: 42px; position: absolute; top: 0; right: 0; background: none; border: none; cursor: pointer;}
+#wrap #modal .container button img {width: 100%;}
+
+#wrap #header {width: 100%; position: relative; z-index: 1;}
+#wrap #header .row1 {width: 100%; height: 99px; }
+
+#wrap #header .row1 .row1-1 {width: 1050px; height: 36px; margin: 0 auto; display: flex; align-items: center; justify-content: flex-end;}
+#wrap #header .row1 .row1-1 span {font-size: 12px;}
+#wrap #header .row1 .row1-1 span a {color: #626262; font-family: 'Homoarakhn', sans-serif;}
+#wrap #header .row1 .row1-1 span a.on {color: rgba(255,0,0,.7);}
+#wrap #header .row1 .row1-1 span i {margin: 0 10px;}
+
+#wrap #header .row1 .row1-2 {width: 100%; height: 63px;}
+#wrap #header .row1 .row1-2 .row1-container {width: 1400px; height: 100%; margin: 0 auto;}
+#wrap #header .row1 .row1-2 .row1-container a {width: 100%; color: #333;}
+#wrap #header .row1 .row1-2 .row1-container a h1 {width: 1400px; height: 100%; display: flex; justify-content: space-around; align-items: center; font-size: 70px; font-weight: 900; font-family: 'homoarakhn';}
+
+#wrap #header .row2 {width: 100%; height: 100%; margin: 20px 0;}
+#wrap #header .row2 .row2-container {width: 100%; height: 200px; margin: 0 auto; display: block; display: flex; justify-content: center; align-items: center;}
+#wrap #header .row2 .row2-container span {width: 100%; height: 100%; margin: 0 10px;}
+#wrap #header .row2 .row2-container span a {width: 100%; height: 100%; display: block; position: relative;}
+#wrap #header .row2 .row2-container span a img {width: 100%; height: 100%;}
+#wrap #header .row2 .row2-container span a h2 {width: 100%; height: 100%;top: 0; position: absolute; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff; font-family: 'homoarakhn'; font-size: 20px;font-weight: 700;line-height: 140%;padding-top: 20px;background: rgba(0,0,0,.6);transition: all .3s ease-in-out;opacity: 0;z-index: 10;}
+#wrap #header .row2 .row2-container span a h2:hover {opacity: 1;}
+
+
+#wrap #main {width: 100%; z-index: 2; position: relative;}
+#wrap #main #section1 {width: 100%;}
+#wrap #main #section1 .slide-container {width: 100%; position: relative;}
+#wrap #main #section1 .slide-container .slide-view {width: 100%; overflow: hidden; position: relative; z-index: 1;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap {width: calc(100%*13); margin-left: -100%; display: flex; position: relative; left: calc(-100%*0);}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .sl {width: 100%;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .sl img {width: 100%;}
+
+#wrap #main #section1 .slide-container .prev-btn {width: 52px; height: 52px; position: absolute; z-index: 2; top: 50%; left: 17%; margin-top: -26px; transform: rotate(180deg);}
+#wrap #main #section1 .slide-container .prev-btn img {width: 100%;}
+#wrap #main #section1 .slide-container .next-btn {width: 52px; height: 52px; position: absolute; z-index: 2; top: 50%; right: 17%; margin-top: -26px;}
+#wrap #main #section1 .slide-container .next-btn img {width: 100%;}
+
+#wrap #main #section1 .slide-container .page-number {position: absolute; z-index: 2; bottom: 20px; right: 22%; color: #fff; font-size: 14px; background: rgba(0,0,0,.7); padding: 5px 12px 7px 12px; border-radius: 13px;}
+#wrap #main #section1 .slide-container .page-number em {width: auto;}
+#wrap #main #section1 .slide-container .page-number i {width: auto;}
+
+
+    
+        
+
+                

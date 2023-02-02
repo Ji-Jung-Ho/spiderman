@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.right_area .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.34375vw;
+  height: 2.34375vw;
+  border-radius: 50%;
+  border: solid 2px #eaeaea;
+  background-color: #fff;
+}
+
+.icon.heart img {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
+.icon.heart.fas {
+  color: red;
+}
+
+.heart {
+  transform-origin: center;
+}
+
+.heart.active img {
+  -webkit-animation: animateHeart 0.3s linear forwards;
+          animation: animateHeart 0.3s linear forwards;
+}
+
+@-webkit-keyframes animateHeart {
+  0% {
+    transform: scale(0.2);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(0.2);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,147 @@
+#wrap {
+  width: 100%;
+}
+#wrap .row1 {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+#wrap .row1 .row1-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#wrap .row1 .row1-container .sign-up-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#wrap .row1 .row1-container .sign-up-box button.dark-light-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 0;
+  padding-right: 10px;
+}
+#wrap .row1 .row1-container .sign-up-box button.dark-light-mode svg {
+  width: 30px;
+  height: 30px;
+}
+#wrap .row1 .row1-container span {
+  font-size: 12px;
+}
+#wrap .row1 .row1-container span:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 10px;
+  background-color: #e2e2e2;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0 8px;
+}
+#wrap .row1 .row1-container span a {
+  color: #626262;
+  font-weight: 700;
+}
+#wrap .row2 {
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 10px 0;
+}
+#wrap .row2 .row2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#wrap .row2 .row2-container .left {
+  width: 300px;
+}
+#wrap .row2 .row2-container .left a {
+  width: 100%;
+}
+#wrap .row2 .row2-container .left a img {
+  width: 100%;
+  height: 150px;
+}
+#wrap .row2 .row2-container .center {
+  width: 100%;
+}
+#wrap .row2 .row2-container .center a {
+  width: 100%;
+}
+#wrap .row2 .row2-container .center a h2 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: "Homoarakhn", sans-serif;
+  background: url(../img/spideman_main_logo.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+#wrap .row2 .row2-container .center a img {
+  width: 100%;
+  height: 150px;
+}
+#wrap .row2 .row2-container .right {
+  width: 300px;
+}
+#wrap .row2 .row2-container .right a {
+  width: 100%;
+}
+#wrap .row2 .row2-container .right a img {
+  width: 100%;
+  height: 150px;
+}
+#wrap .row3 {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+#wrap .row3 .row3-container {
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap .row3 .row3-container #nav {
+  display: flex;
+  justify-content: space-between;
+}
+#wrap .row3 .row3-container #nav span {
+  display: block;
+}
+#wrap .row3 .row3-container #nav span a {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Homoarakhn", sans-serif;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+#wrap .row3 .row3-container #nav span a:hover {
+  color: #f00;
+  background: #fff;
+}
+#wrap .row3 .row3-container #nav i {
+  color: #f00;
+  font-weight: 900;
+}

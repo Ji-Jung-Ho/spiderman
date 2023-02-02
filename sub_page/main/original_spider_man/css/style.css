@@ -1,0 +1,86 @@
+@import url(../../../../css/fonts.css);
+@import url(../../../../css/reset.css);
+@import url(../../../../css/modal.css);
+@import url(../../../../css/header.css);
+@import url(../../../../css/footer.css);
+@import url(../../../../css/quick_menu.css);
+@import url(../../../../css/go_top.css);
+#wrap {
+  width: 100%;
+  background: #333;
+}
+#wrap #main.main3 {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+#wrap #main.main3 #section1 {
+  width: 100%;
+}
+#wrap #main.main3 #section1 .container {
+  width: 1300px;
+  margin: 0 auto;
+}
+#wrap #main.main3 #section1 .container ul {
+  width: 100%;
+  position: relative;
+}
+#wrap #main.main3 #section1 .container ul li {
+  display: flex;
+}
+#wrap #main.main3 #section1 .container ul li img {
+  width: 100%;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  height: 600px;
+}
+#wrap #main.main3 #section1 .container ul li .movie-info {
+  width: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 7px;
+}
+#wrap #main.main3 #section1 .container ul li .movie-info h2 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+#wrap #main.main3 #section1 .container ul li .movie-info p {
+  font-size: 12px;
+  line-height: 140%;
+  color: #fff;
+}
+#wrap #main.main3 #section2 {
+  width: 100%;
+}
+#wrap #main.main3 #section2 .container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#wrap #main.main3 #section2 .container .title {
+  width: 100%;
+}
+#wrap #main.main3 #section2 .container .title h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#wrap #main.main3 #section2 .container .content {
+  width: 100%;
+}
+#wrap #main.main3 #section2 .container .content ul {
+  width: 100%;
+}
+#wrap #main.main3 #section2 .container .content ul li {
+  border-bottom: 2px solid #fff;
+}
+#wrap #main.main3 #section2 .container .content ul li a {
+  display: block;
+  width: 100%;
+}
+#wrap #main.main3 #section2 .container .content ul li a img {
+  width: 100%;
+  height: 200px;
+}
