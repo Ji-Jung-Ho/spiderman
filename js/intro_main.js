@@ -9,7 +9,7 @@
           this.section5();
       },
       section1: function(){
-        let cnt = 0;    
+        let cnt = 0;
         let setId = 0;
         // 선택자 변수 $접두어 사용
         const $s1SlideWrap      = $('#section1 .slide-wrap');
