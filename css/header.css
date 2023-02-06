@@ -6,6 +6,8 @@
   z-index: 3;
   width: 100%;
   background-color: #d2d2d2;
+  background: url(../img/header/HD-wallpaper-spiderman-cool-marvel-sony-spider-spider-man-far-from-home-spiderman-homecoming-spidy-venom.jpg) no-repeat 50% 33%;
+  background-size: cover;
 }
 #wrap #header .row1 {
   width: 100%;
@@ -43,7 +45,7 @@
   height: 10px;
 }
 #wrap #header .row1 .row1-container .member-bar > li i {
-  color: #ccc;
+  color: #333;
   margin: 0 10px;
 }
 #wrap #header .row1 .row1-container .member-bar > li > ul.service-center {
@@ -96,8 +98,6 @@
   height: 150px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px 0;
-  background: url(../img/header/spider-main-logo.png) no-repeat 50% 50%;
-  background-size: 9%;
 }
 #wrap #header .row2 .row2-container {
   width: 100%;
@@ -121,7 +121,8 @@
 #wrap #header .row2 .row2-container .center a h2 {
   letter-spacing: 5px;
   font-size: 90px;
-  text-shadow: 2px 5px 5px rgb(0, 0, 0);
+  color: #000;
+  text-shadow: 2px 5px 5px rgb(255, 0, 0);
 }
 #wrap #header .row3 {
   position: relative;
@@ -178,23 +179,25 @@
 #wrap #header .row3 .row3-container .left #nav .menu-bar span.main-title {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
+  color: #000;
+  background: linear-gradient(to left, #f00 40%, #00f 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 {
   display: none;
   position: absolute;
   top: 51px;
-  left: 23%;
+  left: 27%;
   border: 1px solid rgb(221, 221, 221);
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1.on {
   position: absolute;
   top: 70px;
-  left: 35%;
+  left: 39%;
   border: 1px solid rgb(221, 221, 221);
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul {
-  overflow-y: auto;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
@@ -204,6 +207,9 @@
   font-size: 14px;
   font-weight: 500;
 }
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li:hover > ul.tooltip-detail {
+  display: block;
+}
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li .wrap {
   display: flex;
   flex-wrap: wrap;
@@ -211,7 +217,7 @@
   align-items: center;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li .wrap a.sub-title {
-  padding: 10px;
+  padding: 15px;
   display: block;
   width: 100%;
 }
@@ -221,21 +227,52 @@
   font-weight: bold;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li .wrap a.sub-title img {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   margin: 0 5px 0 0;
+}
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li > ul.tooltip-detail {
+  display: none;
+  width: 375px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 304px;
+  z-index: 20;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-top: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  background: rgba(0, 0, 0, 0.8);
+}
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li > ul.tooltip-detail > li {
+  cursor: pointer;
+}
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li > ul.tooltip-detail > li .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li > ul.tooltip-detail > li .wrap a.sub-title {
+  padding: 15px;
+  width: 100%;
+}
+#wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 > ul > li > ul.tooltip-detail > li .wrap a.sub-title:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip2 {
   display: none;
   position: absolute;
   top: 51px;
-  right: 23.5%;
+  right: 22.5%;
   border: 1px solid rgb(221, 221, 221);
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip2.on {
   position: absolute;
   top: 70px;
-  right: 4%;
+  right: 3%;
   border: 1px solid rgb(221, 221, 221);
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip2 > ul {
@@ -256,7 +293,7 @@
   align-items: center;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip2 > ul > li .wrap a.sub-title {
-  padding: 10px;
+  padding: 15px;
   display: block;
   width: 100%;
 }
@@ -266,8 +303,8 @@
   font-weight: bold;
 }
 #wrap #header .row3 .row3-container .left #nav .menu-bar .category-tooltip2 > ul > li .wrap a.sub-title img {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   margin: 0 5px 0 0;
 }
 #wrap #header.row3 .row3 {

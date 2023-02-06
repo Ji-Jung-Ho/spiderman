@@ -8,6 +8,8 @@
         width: 100%;
         // background: #1e1f21;
         background-color: #d2d2d2;
+        background: url(../img/header/HD-wallpaper-spiderman-cool-marvel-sony-spider-spider-man-far-from-home-spiderman-homecoming-spidy-venom.jpg) no-repeat 50% 33%;
+            background-size: cover;
         .row1 {
             width: 100%;
             height: 40px;
@@ -40,7 +42,7 @@
                             }
                         }
                         i {
-                            color: #ccc;
+                            color: #333;
                             margin: 0 10px;
                         }
                         > ul.service-center {
@@ -90,16 +92,14 @@
             top: 0;
             left: 0;
             background: rgba(210,210,210,0.8);
-            
             z-index: 1;
         }
         .row2 {
-        width: 100%;
-        height: 150px;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
-        padding: 10px 0;
-        background: url(../img/header/spider-main-logo.png) no-repeat 50% 50%;
-        background-size: 9%;  
+            width: 100%;
+            height: 150px;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            padding: 10px 0;
+            ;  
         .row2-container {
             width: 100%;
             height: 100%;
@@ -116,13 +116,12 @@
                     position: relative;
                     width: 100%;
                     z-index: 99;
-                    
                     font-family: 'Homoarakhn', sans-serif;
                     h2 {
                         letter-spacing: 5px;
                         font-size: 90px;
-                        text-shadow: 2px 5px 5px rgb(0, 0, 0);
-                         
+                        color: #000;
+                        text-shadow: 2px 5px 5px rgb(255,0,0);
                     }
                 }
             }
@@ -177,22 +176,23 @@
                             span.main-title {
                                 font-size: 20px;
                                 font-weight: bold;
-                                color: #333;
+                                color: #000;
+                                background: linear-gradient(to left, #f00 40%, #00f 60%);
+                                -webkit-background-clip: text;-webkit-text-fill-color: transparent;
                             }
                             .category-tooltip1 {
                                 display: none;
                                 position: absolute;
                                 top: 51px;
-                                left: 23%;
+                                left: 27%;
                                 border: 1px solid rgb(221, 221, 221);
                                 &.on {
                                     position: absolute;
                                     top: 70px;
-                                    left: 35%;
+                                    left: 39%;
                                     border: 1px solid rgb(221, 221, 221);
                                 }
                                 > ul {
-                                    overflow-y: auto;
                                     width: 100%;
                                     height: 100%;
                                     background: rgba(0,0,0,0.8);
@@ -200,13 +200,16 @@
                                     > li {
                                         font-size: 14px;
                                         font-weight: 500;
+                                        &:hover > ul.tooltip-detail {
+                                          display: block;
+                                        }
                                         .wrap {
                                             display: flex;
                                             flex-wrap: wrap;
                                             justify-content: flex-start;
                                             align-items: center;
                                             a.sub-title {
-                                                padding: 10px;
+                                                padding: 15px;
                                                 display: block;
                                                 width: 100%;
                                                 &:hover {
@@ -215,26 +218,59 @@
                                                     font-weight: bold;
                                                 }
                                                 img {
-                                                    width: 35px;
-                                                    height: 35px;
+                                                    width: 40px;
+                                                    height: 40px;
                                                     margin: 0 5px 0 0;
+                                                }
+                                            }
+                                        }
+                                        > ul.tooltip-detail {
+                                          display: none;
+                                          width: 375px;
+                                          height: 100%;
+                                          position: absolute;
+                                          top: 0px;
+                                          left: 304px;
+                                          z-index: 20;
+                                          border-bottom: 1px solid rgb(221, 221, 221);
+                                          border-top: 1px solid rgb(221, 221, 221);
+                                          border-right: 1px solid rgb(221, 221, 221);
+                                          background: rgba(0,0,0,0.8);
+                                         > li {
+                                            cursor: pointer;
+                                                .wrap {
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    justify-content: flex-start;
+                                                    align-items: center;
+                                                    a.sub-title {
+                                                        
+                                                        padding: 15px;
+                                                        width: 100%;
+                                                        &:hover {
+                                                            background-color: #fff;
+                                                            color: #000;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                    }
                                                 }
                                             }
                                         }
                                     }
                                 }
                             }
-
+  
                             .category-tooltip2 {
                                 display: none;
                                 position: absolute;
                                 top: 51px;
-                                right: 23.5%;
+                                right: 22.5%;
                                 border: 1px solid rgb(221, 221, 221);
                                 &.on {
                                     position: absolute;
                                     top: 70px;
-                                    right: 4%;
+                                    right: 3%;
                                     border: 1px solid rgb(221, 221, 221);
                                 }
                                 > ul {
@@ -252,7 +288,7 @@
                                             justify-content: flex-start;
                                             align-items: center;
                                             a.sub-title {
-                                                padding: 10px;
+                                                padding: 15px;
                                                 display: block;
                                                 width: 100%;
                                                 &:hover {
@@ -261,8 +297,8 @@
                                                     font-weight: bold;
                                                 }
                                                 img {
-                                                    width: 35px;
-                                                    height: 35px;
+                                                    width: 40px;
+                                                    height: 40px;
                                                     margin: 0 5px 0 0;
                                                 }
                                             }

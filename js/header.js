@@ -49,7 +49,13 @@
           });
       },
       imgToggleFn() {
-        $(".spider-man1, .spider-man2, .spider-man3").on({
+        const $spiderman = $(".original");
+        const $amazing = $(".amazing");
+        const $tom = $(".tom");
+        const $miles = $(".miles")
+        const $venom = $(".venom");
+
+        $spiderman.on({
             mouseenter(){
                 $(this).find("img").prop("src", "./img/header/spider_black_logo.png");
             },
@@ -58,7 +64,7 @@
               },
         });
 
-        $(".amazing-spider-man1, .amazing-spider-man2").on({
+        $amazing.on({
             mouseenter(){
                 $(this).find("img").prop("src", "./img/header/amazing_spider_black_logo.png");
             },
@@ -67,7 +73,7 @@
               },
         });
 
-        $(".home-comming, .far-from-home, .no-way-home").on({
+        $tom.on({
             mouseenter(){
                 $(this).find("img").prop("src", "./img/header/tom_spider_black_logo.png");
             },
@@ -75,8 +81,16 @@
                 $(this).find("img").prop("src", "./img/header/tom_spider_red_logo.png");
               },
         });
+        $miles.on({
+            mouseenter(){
+                $(this).find("img").prop("src", "./img/header/miles_black_logo.png");
+            },
+            mouseleave() {
+                $(this).find("img").prop("src", "./img/header/miles_red_logo.png");
+              },
+        });
 
-        $(".Venom1, .Venom2").on({
+        $venom.on({
             mouseenter(){
                 $(this).find("img").prop("src", "./img/header/venom_black_logo.png");
             },
