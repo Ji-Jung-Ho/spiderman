@@ -61,7 +61,6 @@
   display: flex;
 }
 #wrap #main.main2 #section2 .container .content .left {
-  position: -webkit-sticky;
   position: sticky;
   top: 70px;
   left: 0;
@@ -167,7 +166,6 @@
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   font-size: 14px;
   color: #fff;
@@ -308,19 +306,7 @@
   height: 20px;
 }
 #wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button.active img {
-  -webkit-animation: animateHeart 0.3s linear forwards;
-          animation: animateHeart 0.3s linear forwards;
-}
-@-webkit-keyframes animateHeart {
-  0% {
-    transform: scale(0.2);
-  }
-  40% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+  animation: animateHeart 0.3s linear forwards;
 }
 @keyframes animateHeart {
   0% {
@@ -393,7 +379,6 @@
   border-radius: 3px;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #wrap #main.main2 #section2 .container .content .right .pagination {

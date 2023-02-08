@@ -9,7 +9,7 @@
           let quickTop = 0;
 
           function quickMenuFn(){
-            // console.log($(window).scrollTop());
+            console.log($(window).scrollTop());
 
               // 섹션2의 슬라이드 컨테이너가 없으면 오류발생
               // 예외처리

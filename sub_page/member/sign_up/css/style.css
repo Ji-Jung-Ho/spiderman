@@ -168,9 +168,6 @@
 #wrap #main #signUp .container .content form > ul > li .right .right-wrap input[type=text]::-moz-placeholder, #wrap #main #signUp .container .content form > ul > li .right .right-wrap [type=password]::-moz-placeholder {
   color: #aaa;
 }
-#wrap #main #signUp .container .content form > ul > li .right .right-wrap input[type=text]:-ms-input-placeholder, #wrap #main #signUp .container .content form > ul > li .right .right-wrap [type=password]:-ms-input-placeholder {
-  color: #aaa;
-}
 #wrap #main #signUp .container .content form > ul > li .right .right-wrap input[type=text]::placeholder,
 #wrap #main #signUp .container .content form > ul > li .right .right-wrap [type=password]::placeholder {
   color: #aaa;

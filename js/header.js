@@ -9,8 +9,8 @@
           const $window           = $(window);
           const $document         = $(document);
           const $header           = $('#header');
-          const $row1             = $('#header .row1')
-          const $row3             = $('#header .row3')
+          const $row1             = $('#header .row-absolote .row1')
+          const $row3             = $('#header .row-absolote .row3')
           const $categoryTooltip1 = $('#header .category-tooltip1')
           const $categoryTooltip2 = $('#header .category-tooltip2')
 

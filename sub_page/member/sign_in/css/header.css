@@ -101,10 +101,6 @@
   color: #aaa;
   font-size: 15px;
 }
-#wrap #header .row1 .row1-2 .center input:-ms-input-placeholder {
-  color: #aaa;
-  font-size: 15px;
-}
 #wrap #header .row1 .row1-2 .center input::placeholder {
   color: #aaa;
   font-size: 15px;

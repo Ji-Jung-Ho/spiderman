@@ -18,7 +18,7 @@
 <body>
     <div id="wrap">
     <?
-        include_once($path.'modal.php');
+        // include_once($path.'modal.php');
         include_once($path.'header.php');
         include_once($path.'intro_main.php');
         include_once($path.'footer.php');

@@ -1,7 +1,4 @@
-#wrap {
-  width: 100%;
-}
-#wrap #goTop {
+#goTop {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -9,10 +6,10 @@
   height: 58px;
   z-index: 2;
 }
-#wrap #goTop a {
+#goTop a {
   display: block;
   width: 100%;
 }
-#wrap #goTop a img {
+#goTop a img {
   width: 100%;
 }
