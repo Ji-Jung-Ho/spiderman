@@ -1,9 +1,9 @@
 #header {
-  position: relative;
+  position: absolute;
   z-index: 3;
   width: 100%;
-  background: url(../img/header/HD-wallpaper-spiderman-cool-marvel-sony-spider-spider-man-far-from-home-spiderman-homecoming-spidy-venom.jpg) no-repeat 50% 31%;
-  background-size: cover;
+  top: 0;
+  left: 0;
 }
 #header .row1 {
   width: 100%;
@@ -175,9 +175,6 @@
   font-size: 20px;
   font-weight: bold;
   color: #000;
-  background: linear-gradient(to left, #f00 40%, #00f 60%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #header .row3 .row3-container .left #nav .menu-bar .category-tooltip1 {
   display: none;

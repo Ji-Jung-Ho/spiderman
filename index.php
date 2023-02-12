@@ -22,7 +22,7 @@
         include_once($path.'header.php');
         include_once($path.'intro_main.php');
         include_once($path.'footer.php');
-        include_once($path.'quick_menu.php');
+        // include_once($path.'quick_menu.php');
         include_once($path.'go_top.php');
     
     ?>

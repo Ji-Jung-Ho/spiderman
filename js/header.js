@@ -42,6 +42,7 @@
               }
               else{
                 $header.removeClass('row1');
+                $header.removeClass('row3');
                 $(".row1-height").css({"height": "0px"});
               }
 

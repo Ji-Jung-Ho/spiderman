@@ -1,9 +1,24 @@
 <main id="main">
     <section id="section0">
-        <div class="container"> 
+        <div class="container">
+            <div class="img-box1 img-box">
+                <img src="./img/465ba2b955bd02ddb6986099399d5dc3.jpg" alt="">
+            </div>
+            <div class="img-box2 img-box">
+                <img src="./img/37f93f9e16f82bb31c31ab5ea4b312fb.jpg" alt="">
+            </div>
+            <div class="img-box3 img-box">
+                <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt="">
+            </div>
+            <div class="img-box4 img-box">
+                <img src="./img/slide1.jpg" alt="">
+            </div>
+            <div class="img-box5 img-box">
+                <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt="">
+            </div>
         </div>
     </section>
-    <section id="section1" class="sec-0104">
+    <section id="section1" class="sec-0105">
         <div class="container"> 
             <h2 class="title">sam-spider-man</h2>
             <span class="bottom-title">
@@ -12,7 +27,7 @@
             </span>
         </div>
     </section>
-    <section id="section2" class="sec-0104">
+    <section id="section2" class="sec-0105">
         <div class="container"> 
             <h2 class="title">amazing-spider-man</h2>
             <span class="bottom-title">
@@ -21,7 +36,7 @@
             </span>
         </div>
     </section>
-    <section id="section3" class="sec-0104">
+    <section id="section3" class="sec-0105">
         <div class="container"> 
             <h2 class="title">tom-spider-man</h2>
             <span class="bottom-title">
@@ -30,7 +45,16 @@
             </span>
         </div>
     </section>
-    <section id="section4" class="sec-0104" >
+    <section id="section4" class="sec-0105" >
+        <div class="container"> 
+            <h2 class="title">miles-morales</h2>
+            <span class="bottom-title">
+                <em>Tom Hardy</em>
+                <i><!-- 장식 (밑줄) --></i>
+            </span>
+        </div>
+    </section>
+    <section id="section5" class="sec-0105" >
         <div class="container"> 
             <h2 class="title">venom</h2>
             <span class="bottom-title">
@@ -39,7 +63,7 @@
             </span>
         </div>
     </section>
-    <section id="section5">
+    <!-- <section id="section6">
         <div class="slide-container">
             <div class="slide-view">
                 <ul class="slide-wrap">
@@ -69,241 +93,82 @@
             </span>
 
         </div>
-    </section>
-    <section id="section6" class="sec0609">
+    </section> -->
+    <section id="section7" class="sec-1013">
+        <!-- 가상 자식 요소 container이랑 형제 요소로 만든다 before 안에 배경이미지, 필터링 효과 -->
         <div class="container">
             <div class="title">
-                <h2>사진을 누를 시 다운로드</h2>
+                <h2>03</h2>
+                <div>
+                    <h3>May 2002</h3>
+                    <i><!-- 장식(밑줄) --></i>
+                </div>
             </div>
             <div class="content">
-                <div class="slide-container">
-                    <div class="slide-view">
-                        <ul class="slide-wrap">
-                            <li class="slide slide1">
-                                <a href="./img/sec6/slide1.png" download="spiderman1">
-                                    <img src="./img/sec6/slide1.png" alt="slide1">
-                                </a>
-                            </li>
-                            <li class="slide slide2">
-                                <a href="./img/sec6/slide2.png" download="spiderman2">
-                                    <img src="./img/sec6/slide2.png" alt="slide2">
-                                </a>
-                            </li>
-                            <li class="slide slide3">
-                                <a href="./img/sec6/slide3.jpg" download="spiderman3">
-                                    <img src="./img/sec6/slide3.jpg" alt="slide3">
-                                </a>
-                            </li>
-                            <li class="slide slide4">
-                                <a href="./img/sec6/slide4.jpg" download="spiderman4">
-                                    <img src="./img/sec6/slide4.jpg" alt="slide4">
-                                </a>
-                            </li>
-                            <li class="slide slide5">
-                                <a href="./img/sec6/slide5.png" download="spiderman5">
-                                    <img src="./img/sec6/slide5.png" alt="slide5">
-                                </a>
-                            </li>
-                            <li class="slide slide6">
-                                <a href="./img/sec6/slide6.PNG" download="spiderman6">
-                                    <img src="./img/sec6/slide6.PNG" alt="slide6">
-                                </a>
-                            </li>
-                            <li class="slide slide7">
-                                <a href="./img/sec6/slide7.PNG" download="spiderman7">
-                                    <img src="./img/sec6/slide7.PNG" alt="slide7">
-                                </a>
-                            </li>
-                            <li class="slide slide8">
-                                <a href="./img/sec6/slide8.PNG" download="spiderman8">
-                                    <img src="./img/sec6/slide8.PNG" alt="slide8">
-                                </a>
-                            </li>
-                            <li class="slide slide9">
-                                <a href="./img/sec6/slide9.jpg" download="spiderman9">
-                                    <img src="./img/sec6/slide9.jpg" alt="slide9">
-                                </a>
-                            </li>
-                            <li class="slide slide10">
-                                <a href="./img/sec6/slide10.jpg" download="spiderman10">
-                                    <img src="./img/sec6/slide10.jpg" alt="slide10">
-                                </a>
-                            </li>
-                            <li class="slide slide11">
-                                <a href="./img/sec6/slide11.jpg" download="spiderman11">
-                                    <img src="./img/sec6/slide11.jpg" alt="slide11">
-                                </a>
-                            </li>
-                            <li class="slide slide12">
-                                <a href="./img/sec6/slide12.PNG" download="spiderman12">
-                                    <img src="./img/sec6/slide12.PNG" alt="slide12">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="javascript:;" title="이전" class="prev-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                    <a href="javascript:;" title="다음" class="next-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                </div>
+                <p><a href="./sam_spicer_man_music_video.html">"With great power comes great responsibility."</a></p>
+                <strong>POSTED BY JUNGHO</strong>
             </div>
         </div>
     </section>
-    <section id="section7" class="sec0609">
+    <section id="section8" class="sec-1013">
         <div class="container">
             <div class="title">
-                <h2>사진 보기!</h2>
+                <h2>28</h2>
+                <div>
+                    <h3>June 2012</h3>
+                    <i><!-- 장식(밑줄) --></i>
+                </div>
             </div>
             <div class="content">
-                <div class="slide-container">
-                    <div class="slide-view">
-                        <ul class="slide-wrap">
-                            <li class="slide slide1">
-                                <a href="./img/sec7/slide1.png" target="_blank"><img src="./img/sec7/slide1.png" alt=""></a>
-                            </li>
-                            <li class="slide slide2">
-                                <a href="#"><img src="./img/sec7/slide2.png" alt=""></a>
-                            </li>
-                            <li class="slide slide3">
-                                <a href="#"><img src="./img/sec7/slide3.png" alt=""></a>
-                            </li>
-                            <li class="slide slide4">
-                                <a href="#"><img src="./img/sec7/slide4.png" alt=""></a>
-                            </li>
-                            <li class="slide slide5">
-                                <a href="#"><img src="./img/sec7/slide5.png" alt=""></a>
-                            </li>
-                            <li class="slide slide6">
-                                <a href="#"><img src="./img/sec7/slide6.png" alt=""></a>
-                            </li>
-                            <li class="slide slide7">
-                                <a href="#"><img src="./img/sec7/slide7.png" alt=""></a>
-                            </li>
-                            <li class="slide slide8">
-                                <a href="#"><img src="./img/sec7/slide8.png" alt=""></a>
-                            </li>
-                            <li class="slide slide9">
-                                <a href="#"><img src="./img/sec7/slide9.png" alt=""></a>
-                            </li>
-                            <li class="slide slide10">
-                                <a href="#"><img src="./img/sec7/slide10.png" alt=""></a>
-                            </li>
-                            <li class="slide slide11">
-                                <a href="#"><img src="./img/sec7/slide11.png" alt=""></a>
-                            </li>
-                            <li class="slide slide12">
-                                <a href="#"><img src="./img/sec7/slide12.png" alt=""></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="javascript:;" title="이전" class="prev-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                    <a href="javascript:;" title="다음" class="next-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                </div>
+                <p><a href="amazing_spider_man_music_video.html" target="_blank">"I have to stop it. It's a monster <br> I made..."</a></p>
+                <strong>POSTED BY JUNGHO</strong>
             </div>
         </div>
     </section>
-    <section id="section8" class="sec0609">
+    <section id="section9" class="sec-1013">
         <div class="container">
             <div class="title">
-                <h2>사진 보기!</h2>
+                <h2>05</h2>
+                <div>
+                    <h3>July 2017</h3>
+                    <i><!-- 장식(밑줄) --></i>
+                </div>
             </div>
             <div class="content">
-                <div class="slide-container">
-                    <div class="slide-view">
-                        <ul class="slide-wrap">
-                            <li class="slide slide1">
-                                <a href="#"><img src="./img/sec8/slide1.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide2">
-                                <a href="#"><img src="./img/sec8/slide2.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide3">
-                                <a href="#"><img src="./img/sec8/slide3.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide4">
-                                <a href="#"><img src="./img/sec8/slide4.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide5">
-                                <a href="#"><img src="./img/sec8/slide5.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide6">
-                                <a href="#"><img src="./img/sec8/slide6.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide7">
-                                <a href="#"><img src="./img/sec8/slide7.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide8">
-                                <a href="#"><img src="./img/sec8/slide8.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide9">
-                                <a href="#"><img src="./img/sec8/slide9.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide10">
-                                <a href="#"><img src="./img/sec8/slide10.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide11">
-                                <a href="#"><img src="./img/sec8/slide11.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide12">
-                                <a href="#"><img src="./img/sec8/slide12.jpg" alt=""></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="javascript:;" title="이전" class="prev-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                    <a href="javascript:;" title="다음" class="next-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                </div>
+                <p><a href="./tom_spicer_man_music_video.html">"Come on, Peter Tingle!"</a></p>
+                <strong>POSTED BY JUNGHO</strong>
             </div>
         </div>
     </section>
-    <section id="section9" class="sec0609">
+    <section id="section10" class="sec-1013">
         <div class="container">
             <div class="title">
-                <h2>사진 보기!</h2>
+                <h2>12</h2>
+                <div>
+                    <h3>December 2018</h3>
+                    <i><!-- 장식(밑줄) --></i>
+                </div>
             </div>
             <div class="content">
-                <div class="slide-container">
-                    <div class="slide-view">
-                        <ul class="slide-wrap">
-                            <li class="slide slide1">
-                                <a href="#"><img src="./img/sec9/slide1.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide2">
-                                <a href="#"><img src="./img/sec9/slide2.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide3">
-                                <a href="#"><img src="./img/sec9/slide3.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide4">
-                                <a href="#"><img src="./img/sec9/slide4.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide5">
-                                <a href="#"><img src="./img/sec9/slide5.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide6">
-                                <a href="#"><img src="./img/sec9/slide6.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide7">
-                                <a href="#"><img src="./img/sec9/slide7.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide8">
-                                <a href="#"><img src="./img/sec9/slide8.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide9">
-                                <a href="#"><img src="./img/sec9/slide9.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide10">
-                                <a href="#"><img src="./img/sec9/slide10.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide11">
-                                <a href="#"><img src="./img/sec9/slide11.jpg" alt=""></a>
-                            </li>
-                            <li class="slide slide12">
-                                <a href="#"><img src="./img/sec9/slide12.jpg" alt=""></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="javascript:;" title="이전" class="prev-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                    <a href="javascript:;" title="다음" class="next-btn"><img src="./img/arrow_gray.png" alt=""></a>
-                </div>
+                <p><a href="./tom_spicer_man_music_video.html">"Come on, Peter Tingle!"</a></p>
+                <strong>POSTED BY JUNGHO</strong>
             </div>
         </div>
     </section>
+    <section id="section11" class="sec-1013">
+        <div class="container">
+            <div class="title">
+                <h2>03</h2>
+                <div>
+                    <h3>October 2018</h3>
+                    <i><!-- 장식(밑줄) --></i>
+                </div>
+            </div>
+            <div class="content">
+                <p><a href="./venom_music_video.html" target="_blank">"Eyes Lungs Pancreas So many snacks, so little time!"</a></p>
+                <i></i>
+                <strong>POSTED BY JUNGHO</strong>
+            </div>
+        </div>
+    </section>  
 </main>

@@ -12,14 +12,14 @@
         let cnt = 0;
         let setId = 0;
         // 선택자 변수 $접두어 사용
-        const $s5SlideWrap      = $('#section5 .slide-wrap');
-        const $s5Slide          = $('#section5 .sl');
-        const $s5CountNumber    = $('#section5 .count-number');
-        const $s5TotalNumber    = $('#section5 .total-number');
-        const $s5SlideContainer = $('#section5 .slide-container');
-        const $s5NextBtn        = $('#section5 .next-btn');
-        const $s5PrevBtn        = $('#section5 .prev-btn');
-        const n                 = $('#section5 .slide').length-2;
+        const $s5SlideWrap      = $('#section6 .slide-wrap');
+        const $s5Slide          = $('#section6 .sl');
+        const $s5CountNumber    = $('#section6 .count-number');
+        const $s5TotalNumber    = $('#section6 .total-number');
+        const $s5SlideContainer = $('#section6 .slide-container');
+        const $s5NextBtn        = $('#section6 .next-btn');
+        const $s5PrevBtn        = $('#section6 .prev-btn');
+        const n                 = $('#section6 .slide').length-2;
 
         // localhost/kurly_1214__5기/
         // alert(n);
