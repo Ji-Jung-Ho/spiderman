@@ -2,11 +2,14 @@
         width: 100%;
         z-index: 2;
         position: relative;
-        background: #fff;
+        background: #333;
         padding-bottom: 80px;
         #section0 {
+            position: relative;
+            z-index: 10;
             width: 100%;
-            height: 100vh;
+            height: 100%;
+            background: rgba(255,255,255,0.4);
             // background: url(../img/sec1~sec4/spiderman-header.jpg) no-repeat -55px 31%;
             // background: url(../img/sec1~sec4/spiderman-header.jpg) no-repeat 0 50%;
             // background-size: contain;
@@ -17,55 +20,74 @@
                 .img-box {
                     width: 100%;
                     height: 100%;
-                    img {
-                        width: 100%;
-                        height: 100%;
+                    &.img-box1 {
+                        background: url(../img/465ba2b955bd02ddb6986099399d5dc3.jpg) no-repeat 50% 50%;
+                        background-size: cover;
+                    }
+                    &.img-box2 {
+                        background: url(../img/37f93f9e16f82bb31c31ab5ea4b312fb.jpg) no-repeat 50% 50%;
+                        background-size: cover;
+                    }
+                    &.img-box3 {
+                        background: url(../img/1444ef36a54dd43a4269b6de3efd4365.jpg) no-repeat 50% 50%;
+                        background-size: cover;
+                    }
+                    &.img-box4 {
+                        background: url(../img/slide1.jpg) no-repeat 50% 50%;
+                        background-size: cover;
+                    }
+                    &.img-box5 {
+                        background: url(../img/465ba2b955bd02ddb6986099399d5dc3.jpg) no-repeat 50% 50%;
+                        background-size: cover;
                     }
                 }
             }
         }
         .sec-0105 {
-			width: 100%;
-			height: 100%;
-			background: url() no-repeat 50% 50% fixed;
-			background-size: cover;
-			.container {
-				width: 100%;
-				height: 100vh;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				position: relative;
-				.title {
-                    color: #999;
-                    background: rgba(255,255,255,0.8);
-					text-align: center;
-					font-size: 93px;
-					font-weight: 600;
-					font-family: "Homoarakhn", sans-serif;
-				}
-				.bottom-title {
-					text-align: center;
-					display: block;
-					width: 100%;
-					position: absolute;
-					bottom: 60px;
-					em {
-						font-size: 30px;
-						color: #ccc;
-						display: block;
-						padding: 0 0 10px 0;
-						font-weight: 800;
-					}
-					i {
-						display: inline-block;
-						width: 250px;
-						height: 3px;
-						background: rgba(0,235,255,1);
-					}
-				}
-			}
-		}
+            width: 100%;
+            height: 100%;
+            background: url() no-repeat 50% 50% fixed;
+            background-size: cover;
+            user-select: none;
+            .container {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .title {
+                    position: relative;
+                    top: 250px;
+                    left: 0;
+                    color: #fff;
+                    background: rgba(0,0,0,0.8);
+                    font-size: 50px;
+                    font-weight: 600;
+                    font-family: 'spiderman';
+                }
+                .bottom-title {
+                    text-align: center;
+                    display: block;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 60px;
+                    em {
+                        font-size: 30px;
+                        color: #ccc;
+                        display: block;
+                        padding: 0 0 10px 0;
+                        font-weight: 800;
+                    }
+                    i {
+                        display: inline-block;
+                        width: 250px;
+                        height: 3px;
+                        background: rgba(0,235,255,1);
+                    }
+                }
+            }
+        }
         #section6 {
             width: 100%;
             padding-bottom: 40px;
@@ -100,11 +122,11 @@
                     z-index: 3;
                     transition: all .7s ease-in-out;
                     opacity: 0;
-
+    
                     &:hover {
                         opacity: 1;
                     }
-
+    
                     .prev-btn {
                         width: 52px;
                         height: 52px;
@@ -114,12 +136,12 @@
                         left: 5%;
                         margin-top: -26px;
                         transform: rotate(180deg);
-
+    
                         img {
                             width: 100%;
                         }
                     }
-
+    
                     .next-btn {
                         width: 52px;
                         height: 52px;
@@ -128,13 +150,13 @@
                         top: 50%;
                         right: 5%;
                         margin-top: -26px;
-
+    
                         img {
                             width: 100%;
                         }
                     }
                 }
-
+    
                 .page-number {
                     position: absolute;
                     z-index: 2;
@@ -145,10 +167,10 @@
                     background: rgba(0, 0, 0, .7);
                     padding: 5px 12px 7px 12px;
                     border-radius: 13px;
-
+    
                     em {
                         width: auto;
-
+    
                         i {
                             width: auto;
                         }
@@ -156,7 +178,7 @@
                 }
             }
         }
-
+    
         .sec-1013 {
             width: 100%;
             height: 300px;
@@ -233,7 +255,8 @@
                     p {
                         line-height: 200%;
                         padding: 0 0 20px 0;
-                        font-family: 'homoarakhn';
+                        font-family: 'spiderman', sans-serif;
+                        transform: rotate(0.04deg);
                         a {
                             font-size: 20px;
                             color: #fff;
@@ -279,98 +302,8 @@
         
         
         #section1 {background-image: url(../img/sec1~sec4/sam-spiderman3.PNG);}
-        #section2 {background-image: url(../img/sec1~sec4/amazing-spiderman-main.jpg);}
+        #section2 {background-image: url(../img/sec1~sec4/amazing-spiderman-main.jpg); background-position: 50% 15%;}
         #section3 {background-image: url(../img/sec1~sec4/tom-spicerman-photo.jpg);}
         #section4 {background-image: url(../img/sec1~sec4/miles.jpg);}
         #section5 {background-image: url(../img/sec1~sec4/peakpx.jpg);}
-
-        // .sec0710 {
-        //     width: 100%;
-        //     padding: 40px 0;
-        //     .container {
-        //         width: 1100px;
-        //         margin: 0 auto;
-
-        //         .title {
-        //             text-align: center;
-        //             padding-bottom: 30px;
-
-        //             h2 {
-        //                 font-size: 28px;
-        //                 color: #333;
-        //                 font-weight: 500;
-        //             }
-        //         }
-
-        //         .content {
-        //             width: 100%;
-
-        //             .slide-container {
-        //                 width: 100%;
-        //                 position: relative;
-
-        //                 .slide-view {
-        //                     width: 100%;
-        //                     position: relative;
-        //                     overflow: hidden;
-
-        //                     .slide-wrap {
-        //                         width: calc(1100px*12/4);
-        //                         height: 323px;
-        //                         display: flex;
-        //                         position: relative;
-
-        //                         .slide {
-        //                             width: 325px;
-        //                             padding: 0 7px;
-
-        //                             a {
-        //                                 width: 100%;
-
-        //                                 img {
-        //                                     width: 100%;
-        //                                     height: 100%;
-        //                                     transition: all 0.3s ease-in-out;
-
-        //                                     &:hover {
-        //                                         transform: scale(1.06);
-        //                                     }
-        //                                 }
-        //                             }
-        //                         }
-        //                     }
-        //                 }
-
-        //                 .prev-btn {
-        //                     width: 42px;
-        //                     height: 42px;
-        //                     position: absolute;
-        //                     z-index: 2;
-        //                     top: 50%;
-        //                     left: -1%;
-        //                     margin-top: -26px;
-        //                     transform: rotate(180deg);
-
-        //                     img {
-        //                         width: 100%;
-        //                     }
-        //                 }
-
-        //                 .next-btn {
-        //                     width: 42px;
-        //                     height: 42px;
-        //                     position: absolute;
-        //                     z-index: 2;
-        //                     top: 50%;
-        //                     right: 1%;
-        //                     margin: -26px;
-
-        //                     img {
-        //                         width: 100%;
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
     }

@@ -1,9 +1,7 @@
-sub_main > main > product 안에 있는 자료에서
+wrap 요소 밑에 자식 요소로 header, intro_main, footer 등이 와야하는데
 
-관심상품 클릭 시 이미지 변경하는 js (product.js)를 구현 했는데
+header만 자식요소로 오고 나머지는 형제요소로 위치해있습니다.
 
-실제로 클릭 시 이미지가 변경되지 않는 문제가 발생했습니다.
+scss에서 최상위부모에 wrap를 넣으면 css가 적용되지 않습니다.
 
-index.php 안에서는 클릭 이벤트가 구현되는데, AXAJ로 구현했을 시 
-
-클릭 이벤트가 발생하지 않습니다.
+scss와 index.php를 만져봐도 어떻게 해결해야할지 모르겠어서 질문드립니다.

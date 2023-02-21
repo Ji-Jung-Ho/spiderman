@@ -7,11 +7,10 @@
 @import url(../../../../css/quick_menu.css);
 @import url(../../../../css/go_top.css);
 
-#wrap {
-    width: 100%;
-    background-color: #333;
+
     #main.main2 {
         width: 100%;
+        background: #333;
         #section1 {
             width: 100%;
             margin: 0 0 50px 0;
@@ -472,4 +471,3 @@
             }
         }
     }
-}

@@ -16,22 +16,17 @@
     <script src="<?=$path?>js/lib/jquery.easing.1.3.js"></script>
 </head>
 <body>
-    <div id="wrap">
+<div id="wrap">
     <?
-        // include_once($path.'modal.php');
         include_once($path.'header.php');
         include_once($path.'intro_main.php');
         include_once($path.'footer.php');
-        // include_once($path.'quick_menu.php');
         include_once($path.'go_top.php');
-    
     ?>
 </div>
 
-    <script src="<?=$path?>js/modal.js"></script>
     <script src="<?=$path?>js/header.js"></script>
     <script src="<?=$path?>js/intro_main.js"></script>
-    <script src="<?=$path?>js/quick_menu.js"></script>
     <script src="<?=$path?>js/go_top.js"></script>
 
 </body>

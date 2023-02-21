@@ -17,7 +17,6 @@
             </ul>
         </div>
     </div>
-    <div class="row1-height"></div>
     <div class="row2">
         <div class="row2-container">
             <div class="center">
@@ -30,7 +29,7 @@
                 <div class="left">
                     <nav id="nav">
                         <div class="home-btn">
-                            <a href="#"><img src="./img/header/spideman_main_logo.png" alt=""></a>
+                            <a href="#"><img src="./img/header/home-btn.png" alt="홈버튼"></a>
                         </div>
                         <div class="menu-bar">
                             <span class="main-title">spider-man-movie</span>

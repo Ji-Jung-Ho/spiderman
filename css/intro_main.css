@@ -2,12 +2,15 @@
   width: 100%;
   z-index: 2;
   position: relative;
-  background: #fff;
+  background: #333;
   padding-bottom: 80px;
 }
 #main #section0 {
+  position: relative;
+  z-index: 10;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
 }
 #main #section0 .container {
   display: flex;
@@ -18,15 +21,34 @@
   width: 100%;
   height: 100%;
 }
-#main #section0 .container .img-box img {
-  width: 100%;
-  height: 100%;
+#main #section0 .container .img-box.img-box1 {
+  background: url(../img/465ba2b955bd02ddb6986099399d5dc3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#main #section0 .container .img-box.img-box2 {
+  background: url(../img/37f93f9e16f82bb31c31ab5ea4b312fb.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#main #section0 .container .img-box.img-box3 {
+  background: url(../img/1444ef36a54dd43a4269b6de3efd4365.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#main #section0 .container .img-box.img-box4 {
+  background: url(../img/slide1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#main #section0 .container .img-box.img-box5 {
+  background: url(../img/465ba2b955bd02ddb6986099399d5dc3.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 #main .sec-0105 {
   width: 100%;
   height: 100%;
   background: url() no-repeat 50% 50% fixed;
   background-size: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 #main .sec-0105 .container {
   width: 100%;
@@ -37,12 +59,14 @@
   position: relative;
 }
 #main .sec-0105 .container .title {
-  color: #999;
-  background: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  font-size: 93px;
+  position: relative;
+  top: 250px;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 50px;
   font-weight: 600;
-  font-family: "Homoarakhn", sans-serif;
+  font-family: "spiderman";
 }
 #main .sec-0105 .container .bottom-title {
   text-align: center;
@@ -225,7 +249,8 @@
 #main .sec-1013 .container .content p {
   line-height: 200%;
   padding: 0 0 20px 0;
-  font-family: "homoarakhn";
+  font-family: "spiderman", sans-serif;
+  transform: rotate(0.04deg);
 }
 #main .sec-1013 .container .content p a {
   font-size: 20px;
@@ -270,6 +295,7 @@
 }
 #main #section2 {
   background-image: url(../img/sec1~sec4/amazing-spiderman-main.jpg);
+  background-position: 50% 15%;
 }
 #main #section3 {
   background-image: url(../img/sec1~sec4/tom-spicerman-photo.jpg);

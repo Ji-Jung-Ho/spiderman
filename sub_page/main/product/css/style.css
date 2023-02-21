@@ -5,62 +5,59 @@
 @import url(../../../../css/footer.css);
 @import url(../../../../css/quick_menu.css);
 @import url(../../../../css/go_top.css);
-#wrap {
+#main.main2 {
   width: 100%;
-  background-color: #333;
+  background: #333;
 }
-#wrap #main.main2 {
-  width: 100%;
-}
-#wrap #main.main2 #section1 {
+#main.main2 #section1 {
   width: 100%;
   margin: 0 0 50px 0;
   position: relative;
 }
-#wrap #main.main2 #section1 .container {
+#main.main2 #section1 .container {
   width: 100%;
   margin: 0 auto;
 }
-#wrap #main.main2 #section1 .container .gap {
+#main.main2 #section1 .container .gap {
   width: auto;
 }
-#wrap #main.main2 #section1 .container .gap .title h2 {
+#main.main2 #section1 .container .gap .title h2 {
   width: auto;
 }
-#wrap #main.main2 #section1 .container .gap .content {
+#main.main2 #section1 .container .gap .content {
   width: 100%;
 }
-#wrap #main.main2 #section1 .container .gap .content a {
+#main.main2 #section1 .container .gap .content a {
   display: block;
 }
-#wrap #main.main2 #section1 .container .gap .content a img {
+#main.main2 #section1 .container .gap .content a img {
   width: 100%;
 }
-#wrap #main.main2 #section2 {
+#main.main2 #section2 {
   width: 100%;
   padding: 0 0 50px 0;
 }
-#wrap #main.main2 #section2 .container {
+#main.main2 #section2 .container {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
 }
-#wrap #main.main2 #section2 .container .title {
+#main.main2 #section2 .container .title {
   width: 100%;
   padding: 0 7px 50px 7px;
   text-align: center;
   font-family: "Homoarakhn", sans-serif;
 }
-#wrap #main.main2 #section2 .container .title h2 {
+#main.main2 #section2 .container .title h2 {
   font-size: 28px;
   color: #fff;
   font-weight: 500;
 }
-#wrap #main.main2 #section2 .container .content {
+#main.main2 #section2 .container .content {
   width: 100%;
   display: flex;
 }
-#wrap #main.main2 #section2 .container .content .left {
+#main.main2 #section2 .container .content .left {
   position: sticky;
   top: 70px;
   left: 0;
@@ -68,7 +65,7 @@
   height: 100vh;
   margin: 0 30px 0 0;
 }
-#wrap #main.main2 #section2 .container .content .left .title-filter {
+#main.main2 #section2 .container .content .left .title-filter {
   margin: 0 7px;
   display: flex;
   justify-content: space-between;
@@ -76,11 +73,11 @@
   width: auto;
   height: 40px;
 }
-#wrap #main.main2 #section2 .container .content .left .title-filter span {
+#main.main2 #section2 .container .content .left .title-filter span {
   font-size: 15px;
   color: #fff;
 }
-#wrap #main.main2 #section2 .container .content .left .title-filter button {
+#main.main2 #section2 .container .content .left .title-filter button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,29 +85,29 @@
   border: 0;
   color: #fff;
 }
-#wrap #main.main2 #section2 .container .content .left .title-filter button svg {
+#main.main2 #section2 .container .content .left .title-filter button svg {
   margin-right: 5px;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap {
+#main.main2 #section2 .container .content .left .col-gap {
   margin: 0 7px;
   height: 100%;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap {
+#main.main2 #section2 .container .content .left .col-gap .wrap {
   width: 100%;
   height: 100%;
   overflow-y: auto;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap::-webkit-scrollbar {
+#main.main2 #section2 .container .content .left .col-gap .wrap::-webkit-scrollbar {
   width: 0px;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category {
   width: 100%;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li {
   width: 100%;
   border-bottom: 1px solid #eee;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,27 +115,27 @@
   height: 52px;
   color: #fff;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a svg {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a svg {
   width: 18px;
   height: 18px;
   transform: rotate(180deg);
   transition: all 0.3s;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a.on svg {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li a.on svg {
   transform: rotate(0deg);
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub {
   width: 100%;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul {
   width: 100%;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li {
   position: relative;
   width: 100%;
   padding: 7px 0;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li #search {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li #search {
   width: 100%;
   height: 36px;
   background: #fff;
@@ -147,7 +144,7 @@
   padding: 0 15px;
   outline: 0;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li a {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li a {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -157,12 +154,12 @@
   top: 8px;
   left: 180px;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li a img {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li a img {
   width: 25px;
   height: 25px;
   stroke: #f00;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -171,39 +168,39 @@
   color: #fff;
   transition: all 0.3s;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label.movie {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label.movie {
   text-transform: uppercase;
   font-family: "Homoarakhn", sans-serif;
   font-size: 13px;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label:hover {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label:hover {
   color: #fc4848;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label input {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label input {
   display: none;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label input:checked ~ svg {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label input:checked ~ svg {
   fill: #f00;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label svg {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label svg {
   width: 18px;
   height: 18px;
   vertical-align: middle;
   margin: -2px 7px 0 0;
   fill: none;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label svg path {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label svg path {
   stroke: #ddd;
 }
-#wrap #main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label span {
+#main.main2 #section2 .container .content .left .col-gap .wrap > ul.category > li div.category-sub ul li label span {
   margin-left: 7px;
   font-size: 12px;
   color: rgb(204, 204, 204);
 }
-#wrap #main.main2 #section2 .container .content .right {
+#main.main2 #section2 .container .content .right {
   width: 1040px;
 }
-#wrap #main.main2 #section2 .container .content .right .order-filter {
+#main.main2 #section2 .container .content .right .order-filter {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -211,54 +208,54 @@
   height: 40px;
   margin: 0 7px;
 }
-#wrap #main.main2 #section2 .container .content .right .order-filter span a {
+#main.main2 #section2 .container .content .right .order-filter span a {
   font-size: 15px;
   color: #999;
 }
-#wrap #main.main2 #section2 .container .content .right .order-filter span a img {
+#main.main2 #section2 .container .content .right .order-filter span a img {
   position: relative;
   top: -2px;
   margin-left: 5px;
   width: 25px;
   height: 25px;
 }
-#wrap #main.main2 #section2 .container .content .right .order-filter span i {
+#main.main2 #section2 .container .content .right .order-filter span i {
   position: relative;
   bottom: 3px;
   margin: 0 4px;
   font-size: 2px;
   color: rgb(226, 226, 226);
 }
-#wrap #main.main2 #section2 .container .content .right > ul {
+#main.main2 #section2 .container .content .right > ul {
   display: flex;
   flex-flow: row wrap;
   width: 1050px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li {
+#main.main2 #section2 .container .content .right > ul > li {
   width: 260px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap {
+#main.main2 #section2 .container .content .right > ul > li .col-gap {
   margin: 0 7px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap {
   width: 100%;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box {
   position: relative;
   width: 100%;
   height: 300px;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box:hover {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box:hover {
   transform: scale(1.06);
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box img {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box img {
   width: 100%;
   height: 100%;
   z-index: 20;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option {
   position: absolute;
   top: 0;
   left: 0;
@@ -273,10 +270,10 @@
   transition: all 0.3s ease-in-out;
   z-index: 10;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option:hover {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option:hover {
   opacity: 1;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option a {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,12 +281,12 @@
   height: 30px;
   color: #fff;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option a img {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option a img {
   margin-right: 5px;
   width: 20px;
   height: 20px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,12 +297,12 @@
   border: 0;
   cursor: pointer;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button img {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button img {
   margin-right: 5px;
   width: 20px;
   height: 20px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button.active img {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .img-box .option button.active img {
   animation: animateHeart 0.3s linear forwards;
 }
 @keyframes animateHeart {
@@ -319,10 +316,10 @@
     transform: scale(1);
   }
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption {
   padding: 15px 0 30px 0;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h5 {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h5 {
   height: 55px;
   font-size: 20px;
   color: #fff;
@@ -330,45 +327,45 @@
   padding: 0 0 10px 0;
   border-bottom: 1px solid #fff;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h5 span {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h5 span {
   display: block;
   line-height: 150%;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 {
   font-size: 16px;
   line-height: 140%;
   font-weight: 600;
   padding: 10px 0;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 strong {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 strong {
   font-size: 17px;
   color: #fa622f;
   margin: 0 10px 0 0;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 em {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 em {
   color: #fff;
   font-weight: 500;
   font-size: 20px;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 s {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h3 s {
   color: #999;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 {
   padding: 10px 0 15px 0;
   line-height: 24px;
   font-size: 15px;
   text-shadow: 1px 1px 1px #222;
   font-family: "Homoarakhn", sans-serif;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 strong {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 strong {
   display: block;
   border-radius: 3px;
   color: #f00;
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 strong:nth-child(2) {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h4 strong:nth-child(2) {
   color: rgb(0, 204, 255);
 }
-#wrap #main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h6 {
+#main.main2 #section2 .container .content .right > ul > li .col-gap .wrap .caption h6 {
   font-size: 12px;
   color: rgb(255, 0, 0);
   font-weight: 500;
@@ -381,14 +378,14 @@
      -moz-user-select: none;
           user-select: none;
 }
-#wrap #main.main2 #section2 .container .content .right .pagination {
+#main.main2 #section2 .container .content .right .pagination {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 36px;
 }
-#wrap #main.main2 #section2 .container .content .right .pagination a {
+#main.main2 #section2 .container .content .right .pagination a {
   width: 34px;
   height: 34px;
   display: flex;
@@ -397,11 +394,11 @@
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
-#wrap #main.main2 #section2 .container .content .right .pagination a:nth-child(3) {
+#main.main2 #section2 .container .content .right .pagination a:nth-child(3) {
   border-bottom: 2px solid #fff;
   color: #fff;
 }
-#wrap #main.main2 #section2 .container .content .right .pagination a:hover {
+#main.main2 #section2 .container .content .right .pagination a:hover {
   background: #fff;
   color: #000;
 }

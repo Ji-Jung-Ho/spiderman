@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회원가입 | 마켓컬리</title>
-    <link rel="shortcut icon" href="<?=$path?>img/spiderman.png" type="image/x-icon">
+    <title>회원가입</title>
+    <link rel="shortcut icon" href="<?=$path?>img/etc-img/spider-main-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <script src="<?=$path?>js/lib/jquery-1.12.4.min.js"></script>
     <script src="<?=$path?>js/lib/jquery.easing.1.3.js"></script>
@@ -20,7 +20,6 @@
 <div id="wrap">
 
 <?
-    include_once($path.'modal.php');
     include_once($path.'header.php');
 ?>
 
@@ -300,10 +299,7 @@
 <script src="./js/sign_up.js"></script>
 
 <!-- 공용 스크립트 -->
-<script src="<?=$path?>js/modal.js"></script>    
 <script src="<?=$path?>js/header.js"></script>    
-<script src="<?=$path?>js/quick_menu.js"></script>    
-<script src="<?=$path?>js/go_top.js"></script> 
 
 </body>
 </html>

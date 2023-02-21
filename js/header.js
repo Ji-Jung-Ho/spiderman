@@ -7,10 +7,7 @@
       },
       ScrollFn(){
           const $window           = $(window);
-          const $document         = $(document);
           const $header           = $('#header');
-          const $row1             = $('#header .row-absolote .row1')
-          const $row3             = $('#header .row-absolote .row3')
           const $categoryTooltip1 = $('#header .category-tooltip1')
           const $categoryTooltip2 = $('#header .category-tooltip2')
 
@@ -19,34 +16,24 @@
               //현재 윈도우 스크롤 탑값을 콘솔에 찍는다
             //   console.log( $(this).scrollTop() );
               
-              if( $(this).scrollTop() > 90 ){
-                $header.addClass('row1');
-                $(".row1-height").css({"height": "40px"});
-
-                if( $(this).scrollTop() >= 190 ){
-                    $header.addClass('row3');
-                    $(".row3-height").css({"height": "70px"});
-                    $categoryTooltip1.addClass("on");
-                    $categoryTooltip2.addClass("on");
-                    $(".home-btn").addClass('on');
-                    $("#nav").css({"justify-content": "space-between"});
-                }
-                else{
-                    $header.removeClass('row3');
-                    $(".row3-height").css({"height": "0px"});
-                    $categoryTooltip1.removeClass("on");
-                    $categoryTooltip2.removeClass("on");
-                    $(".home-btn").removeClass('on');
-                    $("#nav").css({"justify-content": "space-evenly"});
-                }
-              }
-              else{
-                $header.removeClass('row1');
+            if( $(this).scrollTop() >= 190 ){
+                $header.addClass('row3');
+                $(".row3-height").css({"height": "70px"});
+                $categoryTooltip1.addClass("on");
+                $categoryTooltip2.addClass("on");
+                $(".home-btn").addClass('on');
+                $("#nav").css({"justify-content": "space-between"});
+                $(".main-title").css({"color" : "#fff"});
+            }
+            else{
                 $header.removeClass('row3');
-                $(".row1-height").css({"height": "0px"});
-              }
-
-              
+                $(".row3-height").css({"height": "0px"});
+                $categoryTooltip1.removeClass("on");
+                $categoryTooltip2.removeClass("on");
+                $(".home-btn").removeClass('on');
+                $("#nav").css({"justify-content": "space-evenly"});
+                $(".main-title").css({"color" : "#000"});
+            }
           });
       },
       imgToggleFn() {

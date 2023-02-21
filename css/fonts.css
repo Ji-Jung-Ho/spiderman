@@ -1,11 +1,9 @@
+/* cyrillic-ext */
 @font-face {
-  font-family: 'Homoarakhn';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Homoarakhn'), url('https://fonts.cdnfonts.com/s/17920/HOMOARAK.woff') format('woff');
+  font-family: 'spiderman';
+  src : url(./fonts/HOMOARAK.woff);
 }
 
-/* cyrillic-ext */
 @font-face {
     font-family: 'Montserrat';
     font-style: italic;

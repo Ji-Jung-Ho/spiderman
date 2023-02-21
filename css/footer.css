@@ -3,10 +3,10 @@
   z-index: 1;
   position: relative;
   border-top: 1px solid #eee;
+  background-color: #333;
 }
 #footer .row1 {
   width: 100%;
-  background: #fff;
 }
 #footer .row1 .container {
   width: 1050px;
@@ -17,7 +17,7 @@
   border-bottom: 1px solid #000;
   padding: 40px 0;
   display: flex;
-  color: #333;
+  color: #fff;
 }
 #footer .row1 .container .row1-1 .left {
   width: 50%;
@@ -49,7 +49,7 @@
   font-weight: 600;
 }
 #footer .row1 .container .row1-1 .left ul li h1 a {
-  color: #333;
+  color: #fff;
 }
 #footer .row1 .container .row1-1 .left ul li > a {
   display: block;
@@ -60,14 +60,14 @@
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  color: #333;
+  color: #fff;
 }
 #footer .row1 .container .row1-1 .left ul li p {
   font-size: 12px;
   line-height: 150%;
 }
 #footer .row1 .container .row1-1 .left ul li p a {
-  color: #333;
+  color: #fff;
 }
 #footer .row1 .container .row1-1 .left ul li p a:hover {
   color: #f00;
@@ -79,7 +79,7 @@
   padding-bottom: 30px;
 }
 #footer .row1 .container .row1-1 .right ul li:nth-child(1) a {
-  color: #333;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
 }
@@ -92,7 +92,7 @@
   color: #ccc;
 }
 #footer .row1 .container .row1-1 .right ul li:nth-child(2) div {
-  color: #333;
+  color: #fff;
   font-size: 12px;
   line-height: 140%;
 }
@@ -129,7 +129,7 @@
 }
 #footer .row1 .container .row1-2 a {
   display: flex;
-  font-family: "Homoarakhn", sans-serif;
+  font-family: "spiderman", sans-serif;
 }
 #footer .row1 .container .row1-2 a:hover > span {
   color: #f00;
@@ -143,12 +143,11 @@
   padding: 20px 0 0 10px;
   line-height: 130%;
   font-size: 10px;
-  color: #333;
+  color: #fff;
 }
 #footer .row2 {
   width: 100%;
   padding: 20px 0 30px 0;
-  background: #f7f7f7;
 }
 #footer .row2 .container {
   width: 1050px;
@@ -157,7 +156,7 @@
 #footer .row2 .container p {
   width: 100%;
   font-size: 10px;
-  color: #333;
+  color: #fff;
   text-align: center;
   line-height: 140%;
 }

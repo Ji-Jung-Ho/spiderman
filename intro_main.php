@@ -2,19 +2,19 @@
     <section id="section0">
         <div class="container">
             <div class="img-box1 img-box">
-                <img src="./img/465ba2b955bd02ddb6986099399d5dc3.jpg" alt="">
+                <!-- <img src="./img/465ba2b955bd02ddb6986099399d5dc3.jpg" alt=""> -->
             </div>
             <div class="img-box2 img-box">
-                <img src="./img/37f93f9e16f82bb31c31ab5ea4b312fb.jpg" alt="">
+                <!-- <img src="./img/37f93f9e16f82bb31c31ab5ea4b312fb.jpg" alt=""> -->
             </div>
             <div class="img-box3 img-box">
-                <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt="">
+                <!-- <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt=""> -->
             </div>
             <div class="img-box4 img-box">
-                <img src="./img/slide1.jpg" alt="">
+                <!-- <img src="./img/slide1.jpg" alt=""> -->
             </div>
             <div class="img-box5 img-box">
-                <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt="">
+                <!-- <img src="./img/1444ef36a54dd43a4269b6de3efd4365.jpg" alt=""> -->
             </div>
         </div>
     </section>
@@ -56,44 +56,14 @@
     </section>
     <section id="section5" class="sec-0105" >
         <div class="container"> 
-            <h2 class="title">venom</h2>
+            <h2 class="title">the-venom</h2>
             <span class="bottom-title">
                 <em>Tom Hardy</em>
                 <i><!-- 장식 (밑줄) --></i>
             </span>
         </div>
     </section>
-    <!-- <section id="section6">
-        <div class="slide-container">
-            <div class="slide-view">
-                <ul class="slide-wrap">
-                    <li class="sl slide11 first"><img src="./img/sec5/slide11.png" alt=""></li>
-                    <li class="sl slide1"><img src="./img/sec5/slide1.png" alt=""></li>
-                    <li class="sl slide2"><img src="./img/sec5/slide2.png" alt=""></li>
-                    <li class="sl slide3"><img src="./img/sec5/slide3.png" alt=""></li>
-                    <li class="sl slide4"><img src="./img/sec5/slide4.png" alt=""></li>
-                    <li class="sl slide5"><img src="./img/sec5/slide5.png" alt=""></li>
-                    <li class="sl slide6"><img src="./img/sec5/slide6.png" alt=""></li>
-                    <li class="sl slide7"><img src="./img/sec5/slide7.png" alt=""></li>
-                    <li class="sl slide8"><img src="./img/sec5/slide8.png" alt=""></li>
-                    <li class="sl slide9"><img src="./img/sec5/slide9.png" alt=""></li>
-                    <li class="sl slide10"><img src="./img/sec5/slide10.png" alt=""></li>
-                    <li class="sl slide11"><img src="./img/sec5/slide11.png" alt=""></li>
-                    <li class="sl slide1 last"><img src="./img/sec5/slide1.png" alt=""></li>
-                </ul>
-            </div>
-            <div class="button">
-            <a href="javascript:;" title="이전" class="prev-btn"><img src="./img/arrow_gray.png" alt=""></a>
-            <a href="javascript:;" title="다음" class="next-btn"><img src="./img/arrow_gray.png" alt=""></a>
-            </div>
-            <span class="page-number">
-                <em class="count-number"></em>
-                <i>/</i>
-                <em class="total-number"></em>
-            </span>
-
-        </div>
-    </section> -->
+    
     <section id="section7" class="sec-1013">
         <!-- 가상 자식 요소 container이랑 형제 요소로 만든다 before 안에 배경이미지, 필터링 효과 -->
         <div class="container">
